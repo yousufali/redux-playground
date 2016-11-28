@@ -1,0 +1,48 @@
+{
+    "users": [
+        {
+
+            "id": 1500,
+            "userID": 1500,
+            "firstName": "John",
+            "lastName": "Public"
+        }
+    ],
+    "clients": [
+        {
+            "id": 1,
+            "clientID": 1,
+            "clientName": "Demo Client"
+        }
+    ],
+    "heroes": [
+        {
+            "id": 1,
+            "name": "Magneto"
+        },
+        {
+            "id": 2,
+            "name": "Doctor Strange"
+        },
+        {
+            "id": 3,
+            "name": "Batman22222"
+        },
+        {
+            "id": 4,
+            "name": "new "
+        },
+        {
+            "id": 5,
+            "name": "test"
+        },
+        {
+            "id": 6,
+            "name": "asdf"
+        },
+        {
+            "id": 7,
+            "name": "asdf2"
+        }
+    ]
+}

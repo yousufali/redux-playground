@@ -1,3 +1,14 @@
-<h1>
-  {{title}}
-</h1>
+        <h1>{{title}}</h1>
+        <nav>
+            <a routerLink="/home">Home</a>
+            <a routerLink="/auth">Auth</a>
+        </nav>
+        <div [hidden]="(user | async).isFetching">
+        
+        <router-outlet></router-outlet>
+        (user | async).isFetching {{(user | async).isFetching}}
+        Test Begin <br/>
+        {{user | async | json}}
+        Test End
+        <button (click)="loadUser()">Load User</button>
+        </div>
